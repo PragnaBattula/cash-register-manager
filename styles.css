@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --primary-color: #da827e;
+    --heading:#ca10a2;
+    --btn-color:#ec5952;
+  }
+  
+
+body{
+    font-family: 'Righteous', cursive;
+    max-width: 100vw;
+}
+
+.container{
+    margin: 4rem auto 7rem;
+    text-align: center;
+   
+}
+
+.heading{
+   
+    color: var(--heading);
+}
+
+.about{
+    margin:1rem;
+    font-size: larger;
+}
+
+.input-label{
+    display:block;
+    font-weight: 600;
+    font-size:large ;
+    
+}
+
+.input{
+    font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#check-button{
+    background: var(--btn-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+
+}
+
+/* table */
+.table{
+    width:50%;
+    text-align:justify;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+.table caption{
+    font-size:x-large;
+    font-weight: bold;
+    margin:1rem auto;
+}
+
+th,td{
+    border:2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+}
+
+
+/* footer */
+
+footer{
+    text-align:center;
+}
+
+
+
+
+
